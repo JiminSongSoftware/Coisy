@@ -1,3 +1,7 @@
+### CurrentWorkingProject
+```html
+Future plan includes DjangoAdminPanel made with Electron
+```
 # E-commerce-Website-With-Django-and-Vue
 
 This is a simple E-commerce website made with Django Rest Framework and Vue.js.
