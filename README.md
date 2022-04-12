@@ -67,7 +67,7 @@ This is E-commerce website made with Django Rest Framework and Vue.js.
 The Rest requests from vue interface are made with axios. Bulma is used for CSS
 
 ### To run the django application , go to coisy_django folder and run commands below
-- python manage.py makemigratons
+- python manage.py makemigrations
 - python manage.py migrate
 - python manage.py runserver
 
