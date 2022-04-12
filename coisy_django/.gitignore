@@ -1,6 +1,7 @@
-*.log
-*.pot
-*.pyc
-__pycache__
 db.sqlite3
-migrations
+*.pyc
+*/*.pyc
+*/*/*.pyc
+.DS_Store
+*/.DS_Store
+*/*/.DS_Store

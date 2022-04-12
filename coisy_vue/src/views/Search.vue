@@ -18,6 +18,7 @@
 <script>
 import axios from 'axios'
 import ProductBox from '@/components/ProductBox.vue'
+
 export default {
     name: 'Search',
     components: {
@@ -30,18 +31,22 @@ export default {
         }
     },
     mounted() {
-        document.title = 'Search | Djackets'
+        document.title = 'Search | Coisy'
+
         let uri = window.location.search.substring(1)
         let params = new URLSearchParams(uri)
+
         if (params.get('query')) {
             this.query = params.get('query')
+
             this.performSearch()
         }
     },
     methods: {
         async performSearch() {
             this.$store.commit('setIsLoading', true)
-            await axios 
+
+            await axios
                 .post('/api/v1/products/search/', {'query': this.query})
                 .then(response => {
                     this.products = response.data
@@ -49,6 +54,7 @@ export default {
                 .catch(error => {
                     console.log(error)
                 })
+
             this.$store.commit('setIsLoading', false)
         }
     }

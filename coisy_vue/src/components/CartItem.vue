@@ -29,13 +29,16 @@ export default {
         },
         decrementQuantity(item) {
             item.quantity -= 1
+
             if (item.quantity === 0) {
                 this.$emit('removeFromCart', item)
             }
+
             this.updateCart()
         },
         incrementQuantity(item) {
             item.quantity += 1
+
             this.updateCart()
         },
         updateCart() {
@@ -43,10 +46,9 @@ export default {
         },
         removeFromCart(item) {
             this.$emit('removeFromCart', item)
+
             this.updateCart()
         },
     },
 }
 </script>
-
- 

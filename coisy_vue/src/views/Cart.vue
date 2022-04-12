@@ -38,13 +38,14 @@
 
                 <router-link to="/cart/checkout" class="button is-dark">Proceed to checkout</router-link>
             </div>
-        </div> 
+        </div>
     </div>
 </template>
 
 <script>
 import axios from 'axios'
 import CartItem from '@/components/CartItem.vue'
+
 export default {
     name: 'Cart',
     components: {
@@ -70,7 +71,7 @@ export default {
             return this.cart.items.reduce((acc, curVal) => {
                 return acc += curVal.quantity
             }, 0)
-        }, 
+        },
         cartTotalPrice() {
             return this.cart.items.reduce((acc, curVal) => {
                 return acc += curVal.product.price * curVal.quantity

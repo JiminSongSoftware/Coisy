@@ -2,40 +2,49 @@ import { createRouter, createWebHistory } from 'vue-router'
 
 import store from '../store'
 
-import HomeView from '../views/HomeView.vue'
+import Home from '../views/Home.vue'
 
 import Product from '../views/Product.vue'
 import Category from '../views/Category.vue'
 import Search from '../views/Search.vue'
 import Cart from '../views/Cart.vue'
 import SignUp from '../views/SignUp.vue'
-import Login from '../views/Login.vue'
+import LogIn from '../views/LogIn.vue'
 import MyAccount from '../views/MyAccount.vue'
 import Checkout from '../views/Checkout.vue'
- 
+import Success from '../views/Success.vue'
+
 const routes = [
   {
     path: '/',
-    name: 'home',
-    component: HomeView
+    name: 'Home',
+    component: Home
   },
   {
-    path: '/about', 
-    name: 'about',
+    path: '/about',
+    name: 'About',
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
+    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
   },
   {
-    path: '/:category_slug/:product_slug/',
-    name: 'Product',
-    component: Product
+    path: '/sign-up',
+    name: 'SignUp',
+    component: SignUp
   },
   {
-    path: '/:category_slug',
-    name: 'Category',
-    component: Category
+    path: '/log-in',
+    name: 'LogIn',
+    component: LogIn
+  },
+  {
+    path: '/my-account',
+    name: 'MyAccount',
+    component: MyAccount,
+    meta: {
+        requireLogin: true
+    }
   },
   {
     path: '/search',
@@ -48,32 +57,28 @@ const routes = [
     component: Cart
   },
   {
-    path: '/sign-up',
-    name: 'SignUp',
-    component: SignUp
-  },
-  {
-    path: '/log-in',
-    name: 'Login',
-    component: Login
-  },
-  {
-    path: '/my-account',
-    name: 'MyAccount',
-    component: MyAccount,
-    meta: {
-      requireLogin: true
-    }
+    path: '/cart/success',
+    name: 'Success',
+    component: Success
   },
   {
     path: '/cart/checkout',
     name: 'Checkout',
     component: Checkout,
-    meta: { 
-      requireLogin: true
+    meta: {
+        requireLogin: true
     }
   },
-
+  {
+    path: '/:category_slug/:product_slug',
+    name: 'Product',
+    component: Product
+  },
+  {
+    path: '/:category_slug',
+    name: 'Category',
+    component: Category
+  }
 ]
 
 const router = createRouter({
@@ -90,4 +95,3 @@ router.beforeEach((to, from, next) => {
 })
 
 export default router
-  
