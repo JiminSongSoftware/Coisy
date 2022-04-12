@@ -9,21 +9,58 @@ Project Manager: Jimin Song
 ```
 ```txt
 Project Description:
-Our team will design, architect, code, test, deploy, and manage powerful e-commerce applications using Django, Vue, and React.js as routers and Django Admin. Our team is also reaching out to many talented designers to come up with stunning NFTs, clothes, jewelry, and many more.
+Our team will design, architect, code, test, deploy, and manage 
+powerful e-commerce applications using Django, Vue, and React.js 
+as routers and Django Admin. Our team is also reaching out to many 
+talented designers to come up with stunning NFTs, clothes, jewelry, 
+and many more.
 
-Talking of NFTs, our team will also write smart-contract that will enable users to buy, sell, borrow, and lend from another. We are going to have our NFTs listed up on our applications to let customers purchase the unique products that are designed/manufactured by us.
+Talking of NFTs, our team will also write smart-contract that will 
+enable users to buy, sell, borrow, and lend from another. We are going 
+to have our NFTs listed up on our applications to let customers purchase
+the unique products that are designed/manufactured by us.
 
-Our team uses Django for our back-end and Vue for our front-end and routes them with React.js then we will deploy them on AWS and build pipelines for continuous integration and continuous deployment. After these processes, we will achieve a powerful and fast application that looks visually stunning. Not only that we will safely store and manage clients' data and privacy. ML can also be used to machine learn from the data we get and provide some extra features. Our team also is aware one can achieve the same result by using only Vanilla Javascript or using WordPress, or Shopify and hiring personal home page engineers to add and fix add-ons but this gets costly once a lot of users flow into your system. Also if some use, WordPress, Shopify, if a company falls, they risk losing all their business assets.
+Our team uses Django for our back-end and Vue for our front-end and routes 
+them with React.js then we will deploy them on AWS and build pipelines for 
+continuous integration and continuous deployment. After these processes, 
+we will achieve a powerful and fast application that looks visually stunning. 
+Not only that we will safely store and manage clients' data and privacy. 
+ML can also be used to machine learn from the data we get and provide 
+some extra features. Our team also is aware one can achieve the same result 
+by using only Vanilla Javascript or using WordPress, or Shopify and hiring 
+personal home page engineers to add and fix add-ons but this gets costly once 
+a lot of users flow into your system. Also if some use, WordPress, Shopify, 
+if a company falls, they risk losing all their business assets.
 
-Our team will, in prospect, install our servers, work inside of docker and collaborate with teammates using multiple platforms such as Github, Gitlab, Bit-Bucket, and Slack, which will keep us secure from mishaps.
+Our team will, in prospect, install our servers, work inside of docker and 
+collaborate with teammates using multiple platforms such as Github, Gitlab, 
+Bit-Bucket, and Slack, which will keep us secure from mishaps.
 
-Otherwise, our team is going to implement Circle APIs that will let us accept global payments across traditional and blockchain rails in one powerful integration alongside another method of transactions using other APIs. Then we implement Circle Payment API that will allow us to take payments from our end-users via traditional methods such as debit & credit cards, bank accounts, etc., and receive settlements in USDC. Businesses with users already holding USDC are also able to take on-chain payments on supported blockchains.
+Otherwise, our team is going to implement Circle APIs that will let us accept 
+global payments across traditional and blockchain rails in one powerful integration 
+alongside another method of transactions using other APIs. Then we implement 
+Circle Payment API that will allow us to take payments from our end-users via 
+traditional methods such as debit & credit cards, bank accounts, etc., and receive 
+settlements in USDC. Businesses with users already holding USDC are also able to 
+take on-chain payments on supported blockchains.
 
-USDC is a leading stable coin that is 1:1 fully backed by US dollars. With USDC, individuals and businesses are able to seamlessly exchange value in Defi across blockchains in the form of “digital dollars”.
+USDC is a leading stable coin that is 1:1 fully backed by US dollars. With USDC, 
+individuals and businesses are able to seamlessly exchange value in Defi across 
+blockchains in the form of “digital dollars”.
 
-Our team now then implements Circle Accounts API which will be used to unlock digital currency payments for merchants worldwide. For example, it can power Solana Pay to enable near-instant settlement at near-zero cost for USDC payments at participating merchants. This process will help us open up new markets and drive down costs to our business with new payments infrastructure.
+Our team now then implements Circle Accounts API which will be used to unlock 
+digital currency payments for merchants worldwide. For example, it can power 
+Solana Pay to enable near-instant settlement at near-zero cost for USDC payments 
+at participating merchants. This process will help us open up new markets and drive 
+down costs to our business with new payments infrastructure.
 
-Most essentially, our team will implement Verite, a Web3 identity service, which presents an open, shared, interoperable architecture for identity and trust in the global crypto-financial ecosystem. With Verite, credentials can be issued and used to prove identity claims for an unbounded number of use cases, including KYC verification, accredited investor status, social reputation, NFT provenance tracking, and more—without the need for participants to disclose personal data. We better go now as there are so many works to do on this project. Wish us luck as we are going to expand the current use cases of USDC.
+Most essentially, our team will implement Verite, a Web3 identity service, which 
+presents an open, shared, interoperable architecture for identity and trust in the 
+global crypto-financial ecosystem. With Verite, credentials can be issued and used 
+to prove identity claims for an unbounded number of use cases, including KYC verification, 
+accredited investor status, social reputation, NFT provenance tracking, and more—without 
+the need for participants to disclose personal data. We better go now as there are so many
+ works to do on this project. Wish us luck as we are going to expand the current use cases of USDC.
 ```
 ### Overview
 This is E-commerce website made with Django Rest Framework and Vue.js.
