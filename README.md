@@ -67,6 +67,8 @@ This is E-commerce website made with Django Rest Framework and Vue.js.
 The Rest requests from vue interface are made with axios. Bulma is used for CSS
 
 ### To run the django application , go to coisy_django folder and run commands below
+- pyenv virtualenv Coisy
+- pip install -r requirements.txt
 - python manage.py makemigrations
 - python manage.py migrate
 - python manage.py runserver
@@ -75,6 +77,7 @@ The Rest requests from vue interface are made with axios. Bulma is used for CSS
 
 
 ### To get the vue interface, go to coisy_vue and run :
+- nvm use
 - npm install -g @vue/cli
 - npm install
 - npm run serve
