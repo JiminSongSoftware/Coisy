@@ -1,9 +1,9 @@
 ### Better Installation Instructions
 These instructions assume you use `pyenv` and `nvm`.
 If you do not already have these, it is best to read first about why you may want to use these tools 
-[here](https://opensource.com/article/19/5/python-3-default-mac) 
+[here](https://realpython.com/intro-to-pyenv/#why-use-pyenv) 
 and [here](https://dev.to/melvnl/why-you-should-use-nvm-node-version-manager-and-how-to-install-it-52oh).
-If you would rather not, go back to the [README](../README.md) and follow those instructions as that is sufficient.
+If you would rather not, go back to the [README](./README.md) and follow those instructions as that is sufficient.
 
 - Install `pyenv` [Mac](https://github.com/pyenv/pyenv#homebrew-in-macos)
 	| [Linux, or Windows (via WSL)](https://github.com/pyenv/pyenv-installer)
