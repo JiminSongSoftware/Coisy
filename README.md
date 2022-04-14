@@ -72,8 +72,8 @@ Proceed with below instructions.
 
 #### To run the django application , go to coisy_django folder and run commands below
 `python3 -m venv venv`
-<br>    -- (Unix) - `. venv/bin/activate`
-<br>    -- (Windows) - `. venv\Scripts\activate`
+<br>    - (Unix) - `. venv/bin/activate`
+<br>    - (Windows) - `. venv\Scripts\activate`
 <br>`pip install -r requirements.txt`
 <br>`python manage.py makemigrations`
 <br>`python manage.py migrate`
