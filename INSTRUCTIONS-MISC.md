@@ -1,4 +1,4 @@
-### Better Installation Instructions
+### Better Build Instructions
 These instructions assume you use `pyenv` and `nvm`.
 If you do not already have these, it is best to read first about why you may want to use these tools 
 [here](https://realpython.com/intro-to-pyenv/#why-use-pyenv) 
