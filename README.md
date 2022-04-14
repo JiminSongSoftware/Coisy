@@ -82,7 +82,7 @@ Proceed with below instructions.
 -> keep it open and do next step
 
 
-#### To get the vue interface, go to coisy_vue and run :
+#### To get the vue interface, go to coisy_vue and run:
 `npm install -g @vue/cli`
 <br>`npm install`
 <br>`npm run serve`
