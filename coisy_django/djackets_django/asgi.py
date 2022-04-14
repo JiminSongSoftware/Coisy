@@ -1,5 +1,5 @@
 """
-ASGI config for djackets_django project.
+ASGI config for coisy_django project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 

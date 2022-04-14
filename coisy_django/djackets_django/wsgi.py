@@ -1,5 +1,5 @@
 """
-WSGI config for djackets_django project.
+WSGI config for coisy_django project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
