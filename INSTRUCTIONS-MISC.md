@@ -7,7 +7,7 @@
 	| [Linux, or Windows (via WSL)](https://github.com/nvm-sh/nvm#installing-and-updating)
 
 #### To run the django application , go to coisy_django folder and run commands below
-<br>`pyenv virtualenv system Coisy`
+`pyenv virtualenv system Coisy`
 <br>`pip install -r requirements.txt`
 <br>`python manage.py makemigrations`
 <br>`python manage.py migrate`
@@ -17,8 +17,7 @@
 
 
 #### To get the vue interface, go to coisy_vue and run :
-
-<br>`nvm install`
+`nvm install`
 <br>`nvm use`
 <br>`npm install -g @vue/cli`
 <br>`npm install`
