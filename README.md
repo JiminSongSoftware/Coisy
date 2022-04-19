@@ -1,6 +1,7 @@
 ### CurrentWorkingProgress
 ```txt
 Going through Circle Hackathon 2022
+Implementing Cirlce API, Circle Transaction API
 ```
 # Powerful E-commerce Application with De-Fi transactions
 
