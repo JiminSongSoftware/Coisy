@@ -1,6 +1,6 @@
 ### CurrentWorkingProgress
 ```txt
-Future plan includes DjangoAdminPanel made with Electron
+Going through Circle Hackathon 2022
 ```
 # Powerful E-commerce Application with De-Fi transactions
 
