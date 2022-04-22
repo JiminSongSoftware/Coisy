@@ -9,14 +9,14 @@ Implementing Cirlce API, Circle Transaction API
 Contributors
 
 Jimin Song [Project Manager, Full-Stack Developer]
-Suhails Khan [DevOps Engineer, Back-End Developer]
+Suhail Khan [DevOps Engineer, Back-End Developer]
 Chirag Hegde [Back-End Developer]
 Hyeonmin Song [Front-End Engineer, UI-UX Developer]
 ```
 ```txt
 Current Work Assigned
 Jimin Song -> Progress Order-In Interface and Django/Saleor with GraphQL API provided by Grephene
-Suhails Khan -> Github / CI/CD Pipeline / Dockerize / AWS
+Suhail Khan -> Github / CI/CD Pipeline / Dockerize / AWS
 Chirag Hegde -> Porting previous decentralized KYC verification app / Ethereum
 Hyeonmin Song -> Optimizing SEO using Nuxt / Utilize CDN to use SSR for static page like the landing page and client side rendering for pages that you have to load user specific data.
 ```
@@ -82,6 +82,8 @@ The Rest requests from vue interface are made with axios. Bulma is used for CSS
 ### Building and Running
 Proceed with below instructions.
 <br>But optionally, see our "[Better Instructions](./INSTRUCTIONS-MISC.md)."
+
+Use Python 3.8-3.10 and the latest LTS release of Node.js.
 
 #### To run the django application , go to coisy_django folder and run commands below
 `python3 -m venv venv`
